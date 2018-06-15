@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Audio_Recorder/Meeting.swift"
-            timestampString = "550442167.299222"
+            timestampString = "550776859.057916"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "54"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Audio_Recorder/Meeting.swift"
-            timestampString = "550442167.299531"
+            timestampString = "550776859.058414"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "56"
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Audio_Recorder/Meeting.swift"
-            timestampString = "550442167.299727"
+            timestampString = "550776859.058625"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "55"
@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Audio_Recorder/Meeting.swift"
-            timestampString = "550442167.299917"
+            timestampString = "550776859.058833"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "62"
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Audio_Recorder/Meeting.swift"
-            timestampString = "550442167.300106"
+            timestampString = "550776859.059027"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "23"
@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Audio_Recorder/Meeting.swift"
-            timestampString = "550442167.300285"
+            timestampString = "550776859.059221"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "35"
@@ -106,13 +106,341 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Audio_Recorder/GradientView.swift"
-            timestampString = "550718836.7215641"
+            timestampString = "550776859.059415"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "21"
             endingLineNumber = "21"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "UIColor"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Audio_Recorder/meetingViewController.swift"
+            timestampString = "550776859.059883"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Audio_Recorder/PhoneNumberSolicitationViewController.swift"
+            timestampString = "550776859.060248"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Audio_Recorder/GradientView.swift"
+            timestampString = "550776859.060798"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "GradientView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Audio_Recorder.GradientView.__deallocating_deinit"
+                  moduleName = "Audio_Recorder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Documents/XCode%20Projects/Audio_Recorder/Audio_Recorder/GradientView.swift"
+                  timestampString = "550774314.712622"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Audio_Recorder.GradientView.__allocating_init(frame: __C.CGRect) -&gt; Audio_Recorder.GradientView"
+                  moduleName = "Audio_Recorder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Documents/XCode%20Projects/Audio_Recorder/Audio_Recorder/GradientView.swift"
+                  timestampString = "550774314.7141"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Audio_Recorder.GradientView.init(frame: __C.CGRect) -&gt; Audio_Recorder.GradientView"
+                  moduleName = "Audio_Recorder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Documents/XCode%20Projects/Audio_Recorder/Audio_Recorder/GradientView.swift"
+                  timestampString = "550774314.715577"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "186">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Audio_Recorder.GradientView.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Audio_Recorder.GradientView&gt;"
+                  moduleName = "Audio_Recorder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Documents/XCode%20Projects/Audio_Recorder/Audio_Recorder/GradientView.swift"
+                  timestampString = "550774314.71703"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Audio_Recorder.GradientView.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Audio_Recorder.GradientView&gt;"
+                  moduleName = "Audio_Recorder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Documents/XCode%20Projects/Audio_Recorder/Audio_Recorder/GradientView.swift"
+                  timestampString = "550774314.718618"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Audio_Recorder/GradientView.swift"
+            timestampString = "550776859.06102"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "GradientLayer"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Audio_Recorder.GradientLayer.__deallocating_deinit"
+                  moduleName = "Audio_Recorder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Documents/XCode%20Projects/Audio_Recorder/Audio_Recorder/GradientView.swift"
+                  timestampString = "550774314.72578"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Audio_Recorder.GradientLayer.__allocating_init() -&gt; Audio_Recorder.GradientLayer"
+                  moduleName = "Audio_Recorder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Documents/XCode%20Projects/Audio_Recorder/Audio_Recorder/GradientView.swift"
+                  timestampString = "550774314.727522"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Audio_Recorder.GradientLayer.init() -&gt; Audio_Recorder.GradientLayer"
+                  moduleName = "Audio_Recorder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Documents/XCode%20Projects/Audio_Recorder/Audio_Recorder/GradientView.swift"
+                  timestampString = "550774314.729045"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Audio_Recorder.GradientLayer.__allocating_init(layer: Any) -&gt; Audio_Recorder.GradientLayer"
+                  moduleName = "Audio_Recorder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Documents/XCode%20Projects/Audio_Recorder/Audio_Recorder/GradientView.swift"
+                  timestampString = "550774314.730674"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Audio_Recorder.GradientLayer.init(layer: Any) -&gt; Audio_Recorder.GradientLayer"
+                  moduleName = "Audio_Recorder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Documents/XCode%20Projects/Audio_Recorder/Audio_Recorder/GradientView.swift"
+                  timestampString = "550774314.732125"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Audio_Recorder.GradientLayer.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Audio_Recorder.GradientLayer&gt;"
+                  moduleName = "Audio_Recorder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Documents/XCode%20Projects/Audio_Recorder/Audio_Recorder/GradientView.swift"
+                  timestampString = "550774314.733536"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Audio_Recorder.GradientLayer.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Audio_Recorder.GradientLayer&gt;"
+                  moduleName = "Audio_Recorder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Documents/XCode%20Projects/Audio_Recorder/Audio_Recorder/GradientView.swift"
+                  timestampString = "550774314.734991"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "102">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Audio_Recorder/GradientView.swift"
+            timestampString = "550776859.061224"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "GradientViewProvider"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Audio_Recorder/GradientView.swift"
+            timestampString = "550776859.061429"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "GradientViewProvider"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Audio_Recorder/GradientView.swift"
+            timestampString = "550776859.061632"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "UIView"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Audio_Recorder/GradientView.swift"
+            timestampString = "550776859.0618351"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "gradientLayer"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Audio_Recorder/GradientView.swift"
+            timestampString = "550776859.0620379"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "gradientLayer"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -12,7 +12,7 @@ class meetingViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.gradientLayer.colors = [ UIConstants.bottom, UIConstants.middle, UIConstants.top]
+        view.gradientLayer.colors = [ UIConstants.sharedInstance.bottom, UIConstants.sharedInstance.middle, UIConstants.sharedInstance.top]
         view.gradientLayer.gradient = GradientPoint.bottomTop.draw()
         
 

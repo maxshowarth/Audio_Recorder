@@ -1,15 +1,16 @@
 //
-//  PhoneNumberSolicitationViewController.swift
+//  logInViewController.swift
 //  Audio_Recorder
 //
-//  Created by Max Howarth on 2018-06-07.
+//  Created by Max Howarth on 2018-06-15.
 //  Copyright © 2018 Howarth Technologies. All rights reserved.
 //
 
 import UIKit
-import Foundation
 
-class PhoneNumberSolicitationViewController: UIViewController {
+
+
+class logInViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,15 +35,4 @@ class PhoneNumberSolicitationViewController: UIViewController {
     }
     */
 
-    
-    @IBOutlet weak var phoneNumberField: UITextField!
-    
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if let viewController = segue.destination as? ViewController {
-//            viewController.phoneNumber = phoneNumberField.text
-//        }
-//    }
-    
-
-    
 }
