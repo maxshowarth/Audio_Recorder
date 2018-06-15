@@ -25,6 +25,7 @@
 		502EBE8120D40F4B00E08862 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502EBE8020D40F4B00E08862 /* UIConstants.swift */; };
 		502EBE8320D421C100E08862 /* logInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502EBE8220D421C100E08862 /* logInViewController.swift */; };
 		502EBE8520D4358300E08862 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502EBE8420D4358300E08862 /* User.swift */; };
+		502EBE8720D4552E00E08862 /* Halo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502EBE8620D4552E00E08862 /* Halo.swift */; };
 		5047AFCA20D33DE600DF467A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5047AFC920D33DE600DF467A /* GradientView.swift */; };
 		509B3C5420CEEB43000B2504 /* Meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509B3C5320CEEB43000B2504 /* Meeting.swift */; };
 		509B3C5620CF0275000B2504 /* readyNames.json in Resources */ = {isa = PBXBuildFile; fileRef = 509B3C5520CF0275000B2504 /* readyNames.json */; };
@@ -80,6 +81,7 @@
 		502EBE8020D40F4B00E08862 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		502EBE8220D421C100E08862 /* logInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInViewController.swift; sourceTree = "<group>"; };
 		502EBE8420D4358300E08862 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		502EBE8620D4552E00E08862 /* Halo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Halo.swift; sourceTree = "<group>"; };
 		5047AFC920D33DE600DF467A /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		509B3C5320CEEB43000B2504 /* Meeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting.swift; sourceTree = "<group>"; };
 		509B3C5520CF0275000B2504 /* readyNames.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = readyNames.json; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 		5014251020C990690027F317 = {
 			isa = PBXGroup;
 			children = (
+				502EBE8620D4552E00E08862 /* Halo.swift */,
 				5014251B20C990690027F317 /* Audio_Recorder */,
 				5014253020C9906B0027F317 /* Audio_RecorderTests */,
 				5014253B20C9906B0027F317 /* Audio_RecorderUITests */,
@@ -509,6 +512,7 @@
 				50FA01AC20D2FE2500B71FBB /* meetingClass.swift in Sources */,
 				5014251F20C990690027F317 /* OLD_ViewController.swift in Sources */,
 				50E3E10520D30E3600E5C2A1 /* gradientSubview.swift in Sources */,
+				502EBE8720D4552E00E08862 /* Halo.swift in Sources */,
 				5014251D20C990690027F317 /* AppDelegate.swift in Sources */,
 				50FA01AA20D2F93000B71FBB /* firebaseUtilities.swift in Sources */,
 				502EBE8120D40F4B00E08862 /* UIConstants.swift in Sources */,

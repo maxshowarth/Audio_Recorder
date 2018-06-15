@@ -22,6 +22,7 @@ var phoneNumber: String = ""
 
 class ViewController: UIViewController, AVAudioRecorderDelegate {
     
+    var circleTest: UIView = CircleLayerView()
     //MARK: Properties
     let meetingsRef = Database.database().reference(withPath: "meetings")
     var recordingSession: AVAudioSession!
@@ -32,6 +33,8 @@ class ViewController: UIViewController, AVAudioRecorderDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        recordButton.addHalo()
+        circleTest.draw(CGRect(x: 5, y: 5, width: 100, height: 100))
         
         // Do any additional setup after loading the view, typically from a nib.
         //Medium Gradient

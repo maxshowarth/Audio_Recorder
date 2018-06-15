@@ -22,11 +22,14 @@ class CircularButton: UIButton {
     
         func addHalo() {
         let pulsator = Pulsator()
-            pulsator.position = CGPoint(x: 100, y: 100)
+        pulsator.position = CGPoint(x: 100, y: 100)
         pulsator.numPulse = 3
+        pulsator.fromValueForRadius = 0.33
         pulsator.radius = 300
         pulsator.animationDuration = 3
+        pulsator.repeatCount = 3
         pulsator.backgroundColor = UIColor(red: 0, green: 0.455, blue: 0.756, alpha: 1).cgColor
+        pulsator.autoRemove = true
         layer.addSublayer(pulsator)
         pulsator.start()
     }
