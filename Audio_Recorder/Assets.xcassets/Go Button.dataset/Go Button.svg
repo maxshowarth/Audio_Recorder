@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="271px" height="50px" viewBox="0 0 271 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Go Button</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sign-In" transform="translate(-54.000000, -325.000000)">
+            <g id="Go-Button" transform="translate(54.000000, 325.000000)">
+                <rect id="Rectangle-3" fill="#FFFFFF" x="0" y="0" width="271" height="50" rx="2"></rect>
+                <text id="Go" font-family="OpenSans-Bold, Open Sans" font-size="20" font-weight="bold" fill="#1F3841">
+                    <tspan x="20.0673828" y="31">Go</tspan>
+                </text>
+                <path d="M243.950242,32.6274569 C243.495578,33.0171771 242.623697,33.1780572 242.115523,32.7274569 C241.614939,32.2836567 241.629826,31.4229361 242.128523,30.9773758 L246.846432,26.2021327 L226.258106,26.2021327 C225.563319,26.2021327 225,25.6648523 225,25.0020919 C225,24.3393314 225.563319,23.8020631 226.258106,23.8020631 L246.846432,23.8020631 L242.128523,19.02682 C241.699187,18.6166197 241.619845,17.7256191 242.115523,17.2767388 C242.611033,16.8278985 243.514239,16.9712986 243.950242,17.3767789 L250.660171,24.1770513 C251.135761,24.7381717 251.090219,25.2729721 250.660171,25.8271324 L243.950242,32.6274569 Z" id="Shape" fill="#1F3841" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
