@@ -20,11 +20,11 @@ class Meeting1: NSObject {
     var users = [String]()
     
     // Firebase Properties
-    let firebaseMeetingDatabaseReference = Database.database().reference(withPath: "meetings")
-    lazy var inProgressMeetingsDatabaseReference = firebaseMeetingDatabaseReference.child("in-progress")
-    lazy var completedMeetingsDatabaseReference = firebaseMeetingDatabaseReference.child("completed")
-    let firebaseStorage = Storage.storage()
-    lazy var firebaseMeetingStorageReference = firebaseStorage.reference().child(meetingName)
+//    let firebaseMeetingDatabaseReference = Database.database().reference(withPath: "meetings")
+//    lazy var inProgressMeetingsDatabaseReference = firebaseMeetingDatabaseReference.child("in-progress")
+//    lazy var completedMeetingsDatabaseReference = firebaseMeetingDatabaseReference.child("completed")
+//    let firebaseStorage = Storage.storage()
+    lazy var firebaseMeetingStorageReference =  FirebaseUtilities.utils.firebaseStorage.reference().child(meetingName)     //firebaseStorage.reference().child(meetingName)
     
     // Recorder Properties
     var recordingSession: AVAudioSession!
@@ -99,7 +99,7 @@ extension Meeting1 {
         var values = [String]()
         var name: String = ""
         //MARK: Get list of ready names from Firebase
-        firebaseMeetingDatabaseReference.child("readyNames").observeSingleEvent(of: .value, with: { (snapshot) in
+        FirebaseUtilities.utils.firebaseMeetingDatabaseReference.child("readyNames").observeSingleEvent(of: .value, with: { (snapshot) in
             var snapshotValue = snapshot.value as! NSArray
             for value in snapshotValue {
                 values.append(value as! String )
@@ -107,7 +107,7 @@ extension Meeting1 {
             name = values[0]
             //MARK: Remove value from array, and send back to Firebase
             values.remove(at: 0)
-            self.firebaseMeetingDatabaseReference.child("readyNames").setValue(values)
+            FirebaseUtilities.utils.firebaseMeetingDatabaseReference.child("readyNames").setValue(values)
         })
         
         return name
