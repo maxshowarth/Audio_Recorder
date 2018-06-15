@@ -11,7 +11,7 @@ import Foundation
 import Firebase
 import FirebaseDatabase
 
-class Meeting1: NSObject {
+class Meeting: NSObject {
     
     // Intrinsic Meeting Properties
     let creator: String
@@ -19,12 +19,8 @@ class Meeting1: NSObject {
     var inProgress: Bool = true
     var users = [String]()
     
-    // Firebase Properties
-    let firebaseMeetingDatabaseReference = Database.database().reference(withPath: "meetings")
-    lazy var inProgressMeetingsDatabaseReference = firebaseMeetingDatabaseReference.child("in-progress")
-    lazy var completedMeetingsDatabaseReference = firebaseMeetingDatabaseReference.child("completed")
-    let firebaseStorage = Storage.storage()
-    lazy var firebaseMeetingStorageReference = firebaseStorage.reference().child(meetingName)
+    // Meeting Firebase References
+    lazy var firebaseMeetingStorageReference =  FirebaseUtilities.utils.firebaseStorage.reference().child(meetingName)
     
     // Recorder Properties
     var recordingSession: AVAudioSession!
@@ -46,7 +42,7 @@ class Meeting1: NSObject {
 }
 
 
-extension Meeting1: AVAudioRecorderDelegate {
+extension Meeting: AVAudioRecorderDelegate {
     
     func startRecording() {
         onDeviceRecordingURL = getDocumentsDirectory().appendingPathComponent("meetingRecording.m4a")
@@ -80,7 +76,7 @@ extension Meeting1: AVAudioRecorderDelegate {
 }
 
 
-extension Meeting1 {
+extension Meeting {
     
     func setUpMeeting() -> String {
         meetingName = generateMeetingName()
@@ -99,7 +95,7 @@ extension Meeting1 {
         var values = [String]()
         var name: String = ""
         //MARK: Get list of ready names from Firebase
-        firebaseMeetingDatabaseReference.child("readyNames").observeSingleEvent(of: .value, with: { (snapshot) in
+        FirebaseUtilities.utils.firebaseMeetingDatabaseReference.child("readyNames").observeSingleEvent(of: .value, with: { (snapshot) in
             var snapshotValue = snapshot.value as! NSArray
             for value in snapshotValue {
                 values.append(value as! String )
@@ -107,7 +103,7 @@ extension Meeting1 {
             name = values[0]
             //MARK: Remove value from array, and send back to Firebase
             values.remove(at: 0)
-            self.firebaseMeetingDatabaseReference.child("readyNames").setValue(values)
+            FirebaseUtilities.utils.firebaseMeetingDatabaseReference.child("readyNames").setValue(values)
         })
         
         return name

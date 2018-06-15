@@ -13,6 +13,19 @@ import FirebaseDatabase
 
 class FirebaseUtilities {
     
+    static var utils = FirebaseUtilities()
+    
+    private init() {
+        
+    }
+    
+    //Firebase database references
+    let firebaseMeetingDatabaseReference = Database.database().reference(withPath: "meetings")
+    lazy var inProgressMeetingsDatabaseReference = firebaseMeetingDatabaseReference.child("in-progress")
+    lazy var completedMeetingsDatabaseReference = firebaseMeetingDatabaseReference.child("completed")
+    let firebaseStorage = Storage.storage()
+    
+    
     static func uploadToFirebase(fileName: String, onDeviceFileURL: URL, firebaseTargetLocation: StorageReference) {
         let firebaseObjectURL = firebaseTargetLocation.child(fileName)
         

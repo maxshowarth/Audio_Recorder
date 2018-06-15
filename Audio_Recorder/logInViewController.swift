@@ -24,7 +24,19 @@ class logInViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBOutlet weak var phoneNumberField: UITextField!
+    
+    @IBAction func didPressGo(_ sender: UIButton) {
+        
+        if phoneNumberField.text?.isEmpty ?? true {
+            print("No phone number entered")
+            phoneNumberField.placeholder = "Enter your phone number"
+        } else {
+            User.user.phoneNumber = phoneNumberField.text!
+            performSegue(withIdentifier: "logInSegue", sender: self)
+        }
+    }
+    
     /*
     // MARK: - Navigation
 

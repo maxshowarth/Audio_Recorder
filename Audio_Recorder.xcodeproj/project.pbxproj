@@ -24,6 +24,7 @@
 		5014255120C9C3230027F317 /* PhoneNumberSolicitationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5014254E20C9C3230027F317 /* PhoneNumberSolicitationViewController.swift */; };
 		502EBE8120D40F4B00E08862 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502EBE8020D40F4B00E08862 /* UIConstants.swift */; };
 		502EBE8320D421C100E08862 /* logInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502EBE8220D421C100E08862 /* logInViewController.swift */; };
+		502EBE8520D4358300E08862 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502EBE8420D4358300E08862 /* User.swift */; };
 		5047AFCA20D33DE600DF467A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5047AFC920D33DE600DF467A /* GradientView.swift */; };
 		509B3C5420CEEB43000B2504 /* Meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509B3C5320CEEB43000B2504 /* Meeting.swift */; };
 		509B3C5620CF0275000B2504 /* readyNames.json in Resources */ = {isa = PBXBuildFile; fileRef = 509B3C5520CF0275000B2504 /* readyNames.json */; };
@@ -78,6 +79,7 @@
 		5014254E20C9C3230027F317 /* PhoneNumberSolicitationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberSolicitationViewController.swift; sourceTree = "<group>"; };
 		502EBE8020D40F4B00E08862 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		502EBE8220D421C100E08862 /* logInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInViewController.swift; sourceTree = "<group>"; };
+		502EBE8420D4358300E08862 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5047AFC920D33DE600DF467A /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		509B3C5320CEEB43000B2504 /* Meeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting.swift; sourceTree = "<group>"; };
 		509B3C5520CF0275000B2504 /* readyNames.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = readyNames.json; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				5014254E20C9C3230027F317 /* PhoneNumberSolicitationViewController.swift */,
 				509B3C5520CF0275000B2504 /* readyNames.json */,
 				5014251E20C990690027F317 /* ViewController.swift */,
+				502EBE8420D4358300E08862 /* User.swift */,
 			);
 			path = Audio_Recorder;
 			sourceTree = "<group>";
@@ -501,6 +504,7 @@
 				509B3C5420CEEB43000B2504 /* Meeting.swift in Sources */,
 				5014254F20C9C3230027F317 /* PhoneNumberSolicitationViewController.swift in Sources */,
 				50FA75E520CB0129008E99B2 /* GradientView_Max.swift in Sources */,
+				502EBE8520D4358300E08862 /* User.swift in Sources */,
 				50E3E10720D3103D00E5C2A1 /* meetingViewController.swift in Sources */,
 				50FA01AC20D2FE2500B71FBB /* meetingClass.swift in Sources */,
 				5014251F20C990690027F317 /* ViewController.swift in Sources */,
