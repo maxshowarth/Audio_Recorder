@@ -10,22 +10,31 @@ import Foundation
 import UIKit
 
 
-//class Halo: CAShapeLayer {
-//    
-//    var topLeftCorner: CGPoint
-//    var sideLength: CGFloat
-//    var topRightCorner
-//    
-//    
-////    lazy var xBound: CGFloat = topLeftCorner.x += sideLength
-////    lazy var yBoung: CGFloat = topLeftCorner.y += sideLength
-////    lazy var topRightCorner = CGPoint(x: (xBound, topLeftCorner.y)
-////    lazy var bottomRightCorner = CGPoint(x: topLeftCorner.x+100, y: topLeftCorner.y+100)
-////    lazy var bottomLeftCorner = CGPoint(x: topLeftCorner.x+100, y: topLeftCorner.y+100)
-//    
-//    
-//    
-//}
+class Halo: UIView {
+    var circleLayer: CAShapeLayer!
+    var stroke: Int?
+    var radius: Double?
+    var topLeftCorner: CGPoint?
+
+    internal func drawRingFittingInsideView(rect: CGRect)->()
+    {
+        let desiredLineWidth:CGFloat = 4    // your desired value
+        let hw:CGFloat = desiredLineWidth/2
+        
+        let circlePath = UIBezierPath(ovalInRect: CGRectInset(rect,hw,hw) )
+        
+        let shapeLayer = CAShapeLayer()
+        shapeLayer.path = circlePath.CGPath
+        shapeLayer.fillColor = UIColor.clearColor().CGColor
+        shapeLayer.strokeColor = UIColor.redColor().CGColor
+        shapeLayer.lineWidth = desiredLineWidth
+        layer.addSublayer(shapeLayer)
+    }
+            
+        }
+        
+    }
+}
 
 class CircleLayerView: UIView {
     var circleLayer: CAShapeLayer!

@@ -35,6 +35,7 @@ class ViewController: UIViewController, AVAudioRecorderDelegate {
         super.viewDidLoad()
         recordButton.addHalo()
         circleTest.draw(CGRect(x: 5, y: 5, width: 100, height: 100))
+        view.addSubview(circleTest)
         
         // Do any additional setup after loading the view, typically from a nib.
         //Medium Gradient
