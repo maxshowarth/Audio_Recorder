@@ -15,7 +15,7 @@ class PhoneNumberSolicitationViewController: UIViewController {
         super.viewDidLoad()
         view.gradientLayer.colors = [ UIConstants.sharedInstance.bottom, UIConstants.sharedInstance.middle, UIConstants.sharedInstance.top]
         view.gradientLayer.gradient = GradientPoint.bottomTop.draw()
-        // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {

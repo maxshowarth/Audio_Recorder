@@ -17,7 +17,7 @@ class User {
         
     }
     
-    var phoneNumber: Int?
+    var phoneNumber: String?
     var didLogIn: Bool = false
     
 }

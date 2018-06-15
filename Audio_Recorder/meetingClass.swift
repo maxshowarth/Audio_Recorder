@@ -11,7 +11,7 @@ import Foundation
 import Firebase
 import FirebaseDatabase
 
-class Meeting1: NSObject {
+class Meeting: NSObject {
     
     // Intrinsic Meeting Properties
     let creator: String
@@ -19,12 +19,8 @@ class Meeting1: NSObject {
     var inProgress: Bool = true
     var users = [String]()
     
-    // Firebase Properties
-//    let firebaseMeetingDatabaseReference = Database.database().reference(withPath: "meetings")
-//    lazy var inProgressMeetingsDatabaseReference = firebaseMeetingDatabaseReference.child("in-progress")
-//    lazy var completedMeetingsDatabaseReference = firebaseMeetingDatabaseReference.child("completed")
-//    let firebaseStorage = Storage.storage()
-    lazy var firebaseMeetingStorageReference =  FirebaseUtilities.utils.firebaseStorage.reference().child(meetingName)     //firebaseStorage.reference().child(meetingName)
+    // Meeting Firebase References
+    lazy var firebaseMeetingStorageReference =  FirebaseUtilities.utils.firebaseStorage.reference().child(meetingName)
     
     // Recorder Properties
     var recordingSession: AVAudioSession!
@@ -46,7 +42,7 @@ class Meeting1: NSObject {
 }
 
 
-extension Meeting1: AVAudioRecorderDelegate {
+extension Meeting: AVAudioRecorderDelegate {
     
     func startRecording() {
         onDeviceRecordingURL = getDocumentsDirectory().appendingPathComponent("meetingRecording.m4a")
@@ -80,7 +76,7 @@ extension Meeting1: AVAudioRecorderDelegate {
 }
 
 
-extension Meeting1 {
+extension Meeting {
     
     func setUpMeeting() -> String {
         meetingName = generateMeetingName()
