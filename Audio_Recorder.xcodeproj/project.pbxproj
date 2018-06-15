@@ -10,7 +10,7 @@
 		3B1E2AF4B636338A21B109B0 /* Pods_Audio_RecorderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CCC70D5F21A085BD0F8C8C /* Pods_Audio_RecorderUITests.framework */; };
 		5005454C20C9D7A00018D72B /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5005454B20C9D7A00018D72B /* CircularButton.swift */; };
 		5014251D20C990690027F317 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5014251C20C990690027F317 /* AppDelegate.swift */; };
-		5014251F20C990690027F317 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5014251E20C990690027F317 /* ViewController.swift */; };
+		5014251F20C990690027F317 /* OLD_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5014251E20C990690027F317 /* OLD_ViewController.swift */; };
 		5014252220C990690027F317 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5014252020C990690027F317 /* Main.storyboard */; };
 		5014252420C9906B0027F317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5014252320C9906B0027F317 /* Assets.xcassets */; };
 		5014252720C9906B0027F317 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5014252520C9906B0027F317 /* LaunchScreen.storyboard */; };
@@ -64,7 +64,7 @@
 		5005454B20C9D7A00018D72B /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
 		5014251920C990690027F317 /* Audio_Recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Audio_Recorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5014251C20C990690027F317 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5014251E20C990690027F317 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5014251E20C990690027F317 /* OLD_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLD_ViewController.swift; sourceTree = "<group>"; };
 		5014252120C990690027F317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5014252320C9906B0027F317 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5014252620C9906B0027F317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -182,7 +182,7 @@
 				502EBE8020D40F4B00E08862 /* UIConstants.swift */,
 				5014254E20C9C3230027F317 /* PhoneNumberSolicitationViewController.swift */,
 				509B3C5520CF0275000B2504 /* readyNames.json */,
-				5014251E20C990690027F317 /* ViewController.swift */,
+				5014251E20C990690027F317 /* OLD_ViewController.swift */,
 				502EBE8420D4358300E08862 /* User.swift */,
 			);
 			path = Audio_Recorder;
@@ -507,7 +507,7 @@
 				502EBE8520D4358300E08862 /* User.swift in Sources */,
 				50E3E10720D3103D00E5C2A1 /* meetingViewController.swift in Sources */,
 				50FA01AC20D2FE2500B71FBB /* meetingClass.swift in Sources */,
-				5014251F20C990690027F317 /* ViewController.swift in Sources */,
+				5014251F20C990690027F317 /* OLD_ViewController.swift in Sources */,
 				50E3E10520D30E3600E5C2A1 /* gradientSubview.swift in Sources */,
 				5014251D20C990690027F317 /* AppDelegate.swift in Sources */,
 				50FA01AA20D2F93000B71FBB /* firebaseUtilities.swift in Sources */,
